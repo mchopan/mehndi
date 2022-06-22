@@ -1,0 +1,21 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+.profile-bg-container{
+   border-radius: 32% 68% 40% 60% / 39% 47% 53% 61%  ;
+   overflow: hidden; 
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container{
+    display: flex;
+    justify-content:center;
+}

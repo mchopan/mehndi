@@ -1,0 +1,35 @@
+.nav-container{
+    visibility: visible;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 1000000000;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(243, 238, 238, 0.5);
+    border-radius: 10px;
+
+    align-self: flex-end;
+    margin: 5px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.nav-icons:hover{
+    color: greenyellow;  
+}
+
+.nav-icons:focus{
+    color: rgb(47, 172, 255);   
+}
