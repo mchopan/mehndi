@@ -24,7 +24,7 @@ const Header = () => {
                     marginTop : '20px'
                 }}
             >
-                <Button variant="outlined" startIcon={<DownloadForOfflineIcon />}>Download CV</Button>
+                <Button variant="contained" startIcon={<DownloadForOfflineIcon />}>Download CV</Button>
                 <Button variant="contained" startIcon={<MessageIcon />}>Let's Talk</Button>
             </Stack>
         </div>

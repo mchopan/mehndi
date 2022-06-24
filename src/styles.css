@@ -7,6 +7,6 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: black;
-    color: white;
+    background: linear-gradient(#6600FF, #00CC99);
+    color: whitesmoke;
 }

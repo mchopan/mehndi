@@ -4,6 +4,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import { Box, Typography } from '@mui/material'
+import './testimonials.css'
 
 
 const Testimonials = () => {
@@ -42,11 +43,18 @@ const Testimonials = () => {
     ]
 
     return (
-        <Box
-            sx={{
-                margin :'10px'
-            }}
-        >
+
+        <>
+        <Typography variant="h5" color="inherit" textAlign={'center'}  id='gallery'
+        sx={{
+        margin : '5px',
+        marginTop : '5px',
+        padding : 'px'
+      }}
+    >
+      Review By Clients
+      </Typography>
+        <Box>
         <Swiper
             spaceBetween={50}
             slidesPerView={1}
@@ -62,15 +70,17 @@ const Testimonials = () => {
                         <SwiperSlide key={index} overflow='hidden'>
                             <Box
                                 sx={{
-                                    backgroundColor : '#413D3E', 
-                                    borderRadius : '5px',
+                                    
+                                    borderRadius : '5px', 
                                     padding : '10px',
                                     margin : '10px',
                                     display : 'flex',
                                     flexDirection : 'column',
                                     alignItems : 'center',
                                     marginTop : '20px',
+                                    backdropFilter : 'blur(10px)'
                                 }}
+                                className="testimonial_box"
                                 >
 
                                 <Box className='avatar-container'
@@ -118,6 +128,7 @@ const Testimonials = () => {
 
         </Swiper>
     </Box>
+    </>
     );
 }
 

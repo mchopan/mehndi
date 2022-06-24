@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles.css'
 import { Route, Routes } from 'react-router-dom';
 import { UserAuthContextProvider } from './components/Context/UserAuthContext';
 import Dashboard from './components/Dashboard/Dashboard';

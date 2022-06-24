@@ -17,9 +17,11 @@ import {
   TextField,
 } from "@mui/material";
 import { useUserAuth } from "../Context/UserAuthContext";
-import Dashboard from "../Dashboard/Dashboard";
 
 const Navbar = () => {
+
+
+
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -37,7 +39,6 @@ const Navbar = () => {
 
   const hendleLogin = async (e) => {
     e.preventDefault();
-    // error("");
     try{
          await login(email , password);
           navigate("/admin")
@@ -51,16 +52,16 @@ const Navbar = () => {
     <div className="nav-container">
       <div className="icon-container">
         <a href="#home">
-          <HomeIcon color="primary" className="nav-icons" />
+          <HomeIcon  className="nav-icons" />
         </a>
         <a href="#gallery">
-          <CollectionsIcon color="primary" className="nav-icons" />
+          <CollectionsIcon className="nav-icons" />
         </a>
         <a href="#testimonials">
-          <ThumbsUpDownIcon color="primary" className="nav-icons" />
+          <ThumbsUpDownIcon className="nav-icons" />
         </a>
         <a href="#contacts">
-          <ContactsIcon color="primary" className="nav-icons" />
+          <ContactsIcon className="nav-icons" />
         </a>
 
         <a onClick={handleClickOpen}>
