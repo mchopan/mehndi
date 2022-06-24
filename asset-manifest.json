@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mehndi/static/css/main.55afe44e.css",
+    "main.js": "/mehndi/static/js/main.a87eef32.js",
+    "index.html": "/mehndi/index.html",
+    "main.55afe44e.css.map": "/mehndi/static/css/main.55afe44e.css.map",
+    "main.a87eef32.js.map": "/mehndi/static/js/main.a87eef32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55afe44e.css",
+    "static/js/main.a87eef32.js"
+  ]
+}
